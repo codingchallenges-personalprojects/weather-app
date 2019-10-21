@@ -1,0 +1,115 @@
+/* ------------------- header ------------------- */
+/* ---------------------------------------------- */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 5px solid #b1b53c;
+    background: #b1b53c;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.header-text {
+    font-size: 3rem;
+    font-weight: bold;
+    align-self: center;
+    color: #33587a;
+}
+
+/* ------------------- content ------------------- */
+/* ---------------------------------------------- */
+.content {
+    background: #33587a;
+    margin-top: 0;
+    border: 5px solid #b1b53c;
+}
+.weather h1 {
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    margin-top: 0;
+}
+
+.weather-params-titles {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.weather-params-titles div {
+    border-bottom: 1px dashed white;
+    padding: 10px 1px;
+}
+
+.weather-params-values {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    font-weight: bold;
+    grid-gap: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(90, 85, 128);
+    margin-bottom:0;
+}
+
+.temp {
+    color: yellow;
+}
+
+.weather-params-values div {
+    padding-top: 1rem;
+}
+
+.weather-params-forecast {
+    background: rgb(90, 85, 128);
+}
+
+.weather-params-forecast p {
+    color: white;
+    padding: .8rem 1.3rem;
+    margin: 0;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+
+
+
+/* ----------------- footer ---------------------- */
+/* ---------------------------------------------- */
+
+footer {
+    text-align: center;
+    background: #b1b53c;
+    color: white;
+    padding: 1rem 0;
+    border: 5px solid #b1b53c;
+}
+
+footer a {
+    color: #33587a;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+/* ----------------- button ---------------------- */
+/* ---------------------------------------------- */
+
+.buttons {
+    /* background: red; */
+    color: white;
+}
